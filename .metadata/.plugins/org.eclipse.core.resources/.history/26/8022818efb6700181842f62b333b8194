@@ -1,0 +1,12 @@
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class hello {
+	public String hello(){
+		@RequestMapping(value="hello", meathod=RequestMethod.GET)
+		return "hello Spring Boot";
+	}
+}

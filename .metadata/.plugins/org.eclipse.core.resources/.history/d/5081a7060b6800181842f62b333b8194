@@ -1,0 +1,16 @@
+package com.example.demo.config.dao;
+
+import org.springframework.context.annotation.Bean;
+
+import com.mchange.v2.c3p0.ComboPooledDataSource;
+
+public class DataSourceConfiguration {
+	@Bean(name="dataSource")
+	public ComboPooledDataSource createDataSource() {
+		ComboPooledDataSource dataSource = new ComboPooledDataSource();
+		dataSource.setDriverClass(jdbcDriver);
+		dataSource.setJdbcUrl(jdbcUrl);
+		dataSource.setUser(jdbcUsername);
+		dataSource.setPassword(jdbc);
+	}
+}

@@ -1,0 +1,17 @@
+package com.example.demo.dao;
+
+import java.util.List;
+
+import com.example.demo.entity.Area;
+
+public class AreaDao {
+	/*
+	 * 列出区域列表
+	 * @return areaList
+	 * */
+	List<Area> queryArea();
+	Area queryAreaById(int areaId);
+	int insertArea(Area area);
+	int updateArea(Area area);
+	int deleteArea(int areaId);
+}
