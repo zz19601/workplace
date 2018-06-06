@@ -1,0 +1,34 @@
+package com.example.demo.dao;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class AreaDaoTest {
+
+	@Test
+	public void testQueryArea() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testQueryAreaById() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testInsertArea() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testUpdateArea() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDeleteArea() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.example.demo.entity.Area;
 
-public class AreaDao {
+public interface AreaDao {
 	/*
 	 * 列出区域列表
 	 * @return areaList
